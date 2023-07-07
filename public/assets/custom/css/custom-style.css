@@ -1,0 +1,71 @@
+.metismenu li{
+text-align: left;
+}
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Start loader custom style
+  |--------------------------------------------------------------------------
+  */
+  body>.loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0000002e;
+    z-index: 9999;
+    height: 100vh;
+  }
+  
+  body>.loader-wrapper>svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+  .radio-custom{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.radio-custom .form-check{
+    margin-right: 20px;
+}
+  .rigth-aligment {
+    text-align : right;
+  }
+  /*
+  |--------------------------------------------------------------------------
+  |Data table rigth-aligment custom style
+  |--------------------------------------------------------------------------
+  */
+  .rigth-aligment {
+    text-align : right;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .summary-tab{
+        border: 1px solid #5156be!important;
+        margin: 7px 2px;
+      }
+  }
+
+  .select2-container .select2-dropdown {
+    z-index: 9999;
+}
+
+
+.client-report .select2-container--default .select2-selection--single {
+  border: 1px solid #CED4DA;
+  height: 37px;
+}
+
+@media print {
+  .disable-print {
+    display: none;
+  }
+}
